@@ -18,23 +18,33 @@ function App() {
 
   const [showModal, setShowModal] = useState(false);
   const [selectItem, setSelectItem] = useState(undefined);
+
   
 
   return (
     <div className="App">
       <Navigation />
       <Header />
-      <About/>
-      <ChooseSup/>
-      <Catalog setSelectItem={setSelectItem} data={pageData.Gladiator} setShowModal={setShowModal}  />
+
+      <About />
+      <ChooseSup />
+      <Catalog
+        setSelectItem={setSelectItem}
+        data={pageData.Gladiator}
+        setShowModal={setShowModal}
+      
+      />
       <Img />
-      <Catalog data={pageData.Iboard} setSelectItem={setSelectItem} setShowModal={setShowModal} />
+      <Catalog
+        data={pageData.Iboard}
+        setSelectItem={setSelectItem}
+        setShowModal={setShowModal}
+      />
       <ModalDescription
         setSelectItem={setSelectItem}
         selectItem={selectItem}
         showModal={showModal}
         setShowModal={setShowModal}
-        
       />
     </div>
   );

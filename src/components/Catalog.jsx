@@ -4,9 +4,11 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
-export  function Catalog(props) {
- 
 
+
+export  function Catalog(props) {
+  
+  
   return (
     <Container id="catalogGladiator">
       <Row xs={2} md={4}>
