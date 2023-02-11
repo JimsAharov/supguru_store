@@ -1,0 +1,83 @@
+#header{
+    background-image: url(Блок_01_Пальмы_зеркало.png);
+    background-color: black;
+    height: 104vh;
+    margin-top: -20px;
+    overflow: hidden;
+    
+   }
+   
+#header_brand{
+    color:aliceblue;
+    font-size: 140px;
+    font-family: 'GoodDog' arial;
+    
+    
+   
+}
+
+#header_text{
+   /* background-color: white; 
+   opacity: 0.7; */
+   color:white;
+   display: inline-block;
+   
+   border-radius: 10px;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   padding:20px 10px 10px 0px;
+   
+  
+}
+
+#header-text-item{
+    margin: 10px 0px;;
+}
+
+#img_container{
+    width: 100%;
+   z-index: 1000;
+   
+}
+
+#fonimg{
+    /* position: absolute;  */
+}
+
+.display-flex-left.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 60px;
+    background-color: antiquewhite;
+   
+}
+
+.display-flex-right.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 60px;
+    background: linear-gradient(90deg, #FF8C1B 0%, #FEC80A 100%);
+    
+   
+}
+
+p{
+    padding-left: 16px;
+}
+
+.about_h1{
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.oldprice{
+    margin-left: 25px;
+    text-decoration: line-through;
+}
+
+.accordion-button.collapsed{
+    background-color: lightgray;
+    border: 1px solid black;
+}

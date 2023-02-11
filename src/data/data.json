@@ -1,0 +1,286 @@
+{
+    "Gladiator": [
+        {
+            "id": 0,
+            "model": "Gladiator Kids 9.6",
+            "image": "images/ORIGIN 9.6KD.jpg",
+            "size": "Размер: 292*71*12",
+            "param1": "Детская",
+            "param2": "2 слоя ПВХ",
+            "price": "36400руб",
+            "oldprice": "36400руб"
+        },
+        {
+            "id": 1,
+            "model": "Gladiator OR10.6",
+            "image": "images/ORIGIN 10.6.jpg",
+            "size": "Размер: 323*81*12",
+            "param1": "Прогулочная",
+            "param2": "2 слоя ПВХ",
+            "price": "37600руб",
+            "oldprice": "37600руб"
+        },
+        {
+            "id": 2,
+            "model": "Gladiator OR10.8",
+            "image": "images/ORIGIN 10.8.jpg",
+            "size": "Размер: 329*86*15",
+            "param1": "Прогулочная",
+            "param2": "2 слоя ПВХ",
+            "price": "38900руб",
+            "oldprice": "38900руб"
+        },
+        {
+            "id": 3,
+            "model": "Gladiator OR12.6 T",
+            "image": "images/ORIGIN 12.6 S _ T.jpg",
+            "size": "Размер: 384*81*15",
+            "param1": "Туринговая",
+            "param2": "2 слоя ПВХ",
+            "price": "40100руб",
+            "oldprice": "40100руб"
+        },
+        {
+            "id": 4,
+            "model": "Gladiator OR12.6 S",
+            "image": "images/ORIGIN 12.6 S _ T.jpg",
+            "size": "Размер: 384*76*15",
+            "param1": "Спортивная",
+            "param2": "2 слоя ПВХ",
+            "price": "40000руб",
+            "oldprice": "40000руб"
+        },
+        {
+            "id": 5,
+            "model": "OR10.6 SC",
+            "image": "images/ORIGIN 10.6 SC.jpg",
+            "size": "Размер: 323*81*12",
+            "param1": "Прогулочная",
+            "param2": "2 слоя ПВХ",
+            "price": "38300руб",
+            "oldprice": "38300руб"
+        },
+        {
+            "id": 6,
+            "model": "Gladiator OR10.8 SC",
+            "image": "images/ORIGIN 10.8 SC.jpg",
+            "size": "Размер: 329*86*15",
+            "param1": "Прогулочная",
+            "param2": "2 слоя ПВХ",
+            "price": "39600руб",
+            "oldprice": "39600руб"
+        },
+        {
+            "id": 7,
+            "model": "Gladiator OR12.6 TSC",
+            "image": "images/ORIGIN 12.6 SC S _ T .jpg",
+            "size": "Размер: 384*81*15",
+            "param1": "Туринговая",
+            "param2": "2 слоя ПВХ",
+            "price": "40700руб",
+            "oldprice": "40700руб"
+        },
+        {
+            "id": 8,
+            "model": "Gladiator OR12.6 SSC",
+            "image": "images/ORIGIN 12.6 SC S _ T .jpg",
+            "size": "Размер: 384*76*15",
+            "param1": "Спортивная",
+            "param2": "2 слоя ПВХ",
+            "price": "40700руб",
+            "oldprice": "40700руб"
+        },
+        {
+            "id": 9,
+            "model": "Gladiator PRO 11.4",
+            "image": "images/Pro11.4.jpg",
+            "size": "Размер: 347*81*12",
+            "param1": "Универсальная",
+            "param2": "2 слоя ПВХ",
+            "price": "43300руб",
+            "oldprice": "43300руб"
+        },
+        {
+            "id": 10,
+            "model": "Gladiator PRO 11.6",
+            "image": "images/Pro 11.6.jpg",
+            "size": "Размер: 353*86*15",
+            "param1": "Туринговая",
+            "param2": "2 слоя ПВХ",
+            "price": "44200руб",
+            "oldprice": "44200руб"
+        },
+        {
+            "id": 11,
+            "model": "Gladiator PRO 12.6 Sport",
+            "image": "images/PRO_12.6 S.jpg",
+            "size": "Размер: 384*76*15",
+            "param1": "Спортивная",
+            "param2": "2 слоя ПВХ",
+            "price": "46300руб",
+            "oldprice": "46300руб"
+        },
+        {
+            "id": 12,
+            "model": "Gladiator PRO 12.6 Touring",
+            "image": "images/PRO_12.6 S.jpg",
+            "size": "Размер: 384*81*15",
+            "param1": "Туринговая",
+            "param2": "2 слоя ПВХ",
+            "price": "46300руб",
+            "oldprice": "46300руб"
+        },
+
+        {
+            "id": 13,
+            "model": "Gladiator PRO 12.6 Wide",
+            "image": "images/PRO_12.6 W.jpg",
+            "size": "Размер: 384*86*15",
+            "param1": "Туринговая",
+            "param2": "2 слоя ПВХ",
+            "price": "46300руб",
+            "oldprice": "46300руб"
+        },
+
+        {
+            "id": 14,
+            "model": "Gladiator Elite 11.4",
+            "image": "images/ELITE_11.4.jpg",
+            "size": "Размер: 347*81*12",
+            "param1": "Универсальная",
+            "param2": "2 слоя ПВХ",
+            "price": "50500руб",
+            "oldprice": "50500руб"
+        },
+
+        {
+            "id": 15,
+            "model": "Gladiator Elite 11.6",
+            "image": "images/ELITE_11.6.jpg",
+            "size": "Размер: 348*86*15",
+            "param1": "Туринговая",
+            "param2": "2 слоя ПВХ",
+            "price": "51800руб",
+            "oldprice": "51800руб"
+        },
+
+        {
+            "id": 16,
+            "model": "Gladiator Elite 12.6 Race",
+            "image": "images/ELITE 12.6 R.jpg",
+            "size": "Размер: 384*63*15",
+            "param1": "Спортивная",
+            "param2": "2 слоя ПВХ",
+            "price": "55700руб",
+            "oldprice": "55700руб"
+        },
+
+        {
+            "id": 17,
+            "model": "Gladiator Elite 12.6 Sport",
+            "image": "images/ELITE 12.6 S.jpg",
+            "size": "Размер: 384*76*15",
+            "param1": "Спортивная",
+            "param2": "2 слоя ПВХ",
+            "price": "51800руб",
+            "oldprice": "51800руб"
+        },
+
+        {
+            "id": 18,
+            "model": "Gladiator Elite 12.6 Touring",
+            "image": "images/ELITE 12.6 T.jpg",
+            "size": "Размер: 384*81*15",
+            "param1": "Туринговая",
+            "param2": "2 слоя ПВХ",
+            "price": "52200руб",
+            "oldprice": "52200руб"
+        },
+        {
+            "id": 19,
+            "model": "Gladiator Elite 14.0 R/S/T",
+            "image": "images/ELITE 14.0 R _ S _ T.jpg",
+            "size": "Размер: 427*63/71/76*15",
+            "param1": "Спортивная",
+            "param2": "2 слоя ПВХ",
+            "price": "57800руб",
+            "oldprice": "57800руб"
+        }
+
+
+    ],
+    "Iboard": [
+        {
+            "model": "iBoard",
+            "image": "images/ORIGIN 9.6KD.jpg",
+            "size": "Размер: 292*71*12",
+            "param1": "Универсальная доска",
+            "param2": "1 слой ПВХ",
+            "price": "24000руб"
+        },
+        {
+            "model": "Gladiator OR10.6",
+            "image": "images/ORIGIN 10.6.jpg",
+            "size": "Размер: 292*71*12",
+            "param1": "value",
+            "param2": "value",
+            "price": "10000руб"
+        },
+        {
+            "model": "Gladiator OR10.8",
+            "image": "images/ORIGIN 10.8.jpg",
+            "size": "Размер: 292*71*12",
+            "param1": "value",
+            "param2": "value",
+            "price": "10000руб"
+        },
+        {
+            "model": "Gladiator OR12.6 T",
+            "image": "images/ORIGIN 12.6 S _ T.jpg",
+            "size": "Размер: 292*71*12",
+            "param1": "value",
+            "param2": "value",
+            "price": "10000руб"
+        },
+        {
+            "model": "Gladiator OR12.6 S",
+            "image": "images/ORIGIN 12.6 S _ T.jpg",
+            "size": "Размер: 292*71*12",
+            "param1": "value",
+            "param2": "value",
+            "price": "10000руб"
+        },
+        {
+            "model": "OR10.6 SC",
+            "image": "images/ORIGIN 10.6 SC.jpg",
+            "size": "Размер: 292*71*12",
+            "param1": "value",
+            "param2": "value",
+            "price": "10000руб"
+        },
+        {
+            "model": "Gladiator OR10.8 SC",
+            "image": "images/ORIGIN 10.8 SC.jpg",
+            "size": "Размер: 292*71*12",
+            "param1": "value",
+            "param2": "value",
+            "price": "10000руб"
+        },
+        {
+            "model": "Gladiator OR12.6 TSC",
+            "image": "images/ORIGIN 12.6 SC S _ T .jpg",
+            "size": "Размер: 292*71*12",
+            "param1": "value",
+            "param2": "value",
+            "price": "10000руб"
+        },
+        {
+            "model": "Gladiator OR12.6 SSC",
+            "image": "images/ORIGIN 12.6 SC S _ T .jpg",
+            "size": "Размер: 292*71*12",
+            "param1": "value",
+            "param2": "value",
+            "price": "10000руб"
+        }
+    ]
+}

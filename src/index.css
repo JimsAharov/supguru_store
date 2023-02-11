@@ -5,9 +5,41 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+#cardBlock{
+margin-top: 100px;
+}
+
+#card{
+  width:250px;
+  height: 100px;
+  background-color: aquamarine;
+  border: 1px solid grey;
+  margin: 10px 10px;
+}
+
+
+
+.brand{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.brand_text{
+  margin-left: 20px;
+}
+
+a{
+  margin: 0px 20px;
 }
