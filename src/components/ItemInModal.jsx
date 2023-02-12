@@ -41,10 +41,11 @@ export function ItemInModal(props) {
             </Carousel>
           </Col>
 
-          <Col>
-            <h1>{props.selectItem ? props.selectItem.model : "Load"}</h1>
+          <Col className="bottom_line">
+           
 
             <ul className="itemInModal_ul">
+            <li><h1>{props.selectItem ? props.selectItem.model : "Load"}</h1></li>
               <li>
                 <h3 className="itemInModal_li_h3">Характеристики:</h3>
               </li>
@@ -60,7 +61,7 @@ export function ItemInModal(props) {
                 </span>
               </li>
               <li className="itemInModal_orderButton">
-                <Button>Оформить Заказ</Button>
+                <Button onClick={() => props.setShowOrderPage(true)}>Оформить Заказ</Button>
               </li>
             </ul>
           </Col>

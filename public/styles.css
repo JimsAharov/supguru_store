@@ -128,3 +128,7 @@ p{
     margin-top: 30px;
     
 }
+
+.bottom_line{
+    border-bottom: 2px solid lightgrey;
+}

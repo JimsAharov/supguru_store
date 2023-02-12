@@ -15,7 +15,7 @@ export function ModalDescription(props) {
           <Modal.Title>{props.selectItem ? props.selectItem.model : "load"}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <ItemInModal selectItem={props.selectItem}/>
+          <ItemInModal setShowOrderPage={props.setShowOrderPage}  selectItem={props.selectItem}/>
         </Modal.Body>
       </Modal>
     </>

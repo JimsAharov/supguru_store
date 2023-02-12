@@ -9,6 +9,8 @@ import { Img } from "./components/img";
 import { ModalDescription } from "./components/ModalDescription";
 import { About } from "./components/About";
 import { ChooseSup } from "./components/ChooseSup";
+import { OrderPage } from "./components/OrderPage";
+
 
 function App() {
   const [pageData, setPageData] = useState({});
@@ -18,6 +20,7 @@ function App() {
 
   const [showModal, setShowModal] = useState(false);
   const [selectItem, setSelectItem] = useState(undefined);
+  const [showOrderPage, setShowOrderPage] = useState(false)
 
   
 
@@ -28,6 +31,8 @@ function App() {
 
       <About />
       <ChooseSup />
+      
+      <OrderPage showOrderPage={showOrderPage} setShowOrderPage={setShowOrderPage} selectItem={selectItem}/>
       <Catalog
         setSelectItem={setSelectItem}
         data={pageData.Gladiator}
@@ -41,6 +46,7 @@ function App() {
         setShowModal={setShowModal}
       />
       <ModalDescription
+        setShowOrderPage={setShowOrderPage}
         setSelectItem={setSelectItem}
         selectItem={selectItem}
         showModal={showModal}

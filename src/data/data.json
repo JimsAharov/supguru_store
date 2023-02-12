@@ -151,7 +151,7 @@
         },
         {
             "id": 12,
-            "model": "Gladiator PRO 12.6 Touring",
+            "model": "Gladiator PRO 12.6 T",
             "image": "images/PRO_12.6 S.jpg",
             "size": "Размер: 384*81*15",
             "param1": "Туринговая",
@@ -174,7 +174,7 @@
 
         {
             "id": 13,
-            "model": "Gladiator PRO 12.6 Wide",
+            "model": "Gladiator PRO 12.6 W",
             "image": "images/PRO_12.6 W.jpg",
             "size": "Размер: 384*86*15",
             "param1": "Туринговая",
@@ -304,7 +304,7 @@
         },
         {
             "id": 19,
-            "model": "Gladiator Elite 14.0 R/S/T",
+            "model": "Gladiator Elite 14.0",
             "image": "images/ELITE 14.0 R _ S _ T.jpg",
             "size": "Размер: 427*63/71/76*15",
             "param1": "Спортивная",
