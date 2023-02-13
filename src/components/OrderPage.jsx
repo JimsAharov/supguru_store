@@ -75,14 +75,17 @@ export function OrderPage(props) {
           </div>
         </div>
         <div style={styles.order_price_section}>
-        <span>Сумма заказа:</span> <span  style={styles.order_p}> {props.selectItem ? props.selectItem.price : "load"}</span></div>
+        <span>Сумма заказа:</span> <span  style={styles.order_p}> {props.selectItem ? props.selectItem.price : "load"}</span>
+        </div>
+        <div style={styles.order_price_section}><p>Заполните и отправьте форму. В ближайшее время наши менеджеры свяжутся с Вами. </p></div>
+        
         <div style={styles.container}>
           <form>
-            <input placeholder="Имя" style={styles.input} />
+            <input placeholder="Имя" style={styles.input} value={props.selectItem ? props.selectItem.model : "load"} />
             <input placeholder="E-mail" style={styles.input} />
             <input placeholder="Тел +7(000) 000 00 00" style={styles.input} />
             
-            <Button style={styles.order_form_button} type="submit">
+            <Button variant="warning"  style={styles.order_form_button} type="submit">
               Отправить
             </Button>
           </form>
