@@ -15,7 +15,7 @@ export  function Catalog(props) {
         {props.data
           ? props.data.map((g, i) => (
               <Col>
-                <Card key={`${g.model}`} style={{ width: "15rem" }}>
+                <Card className="catalog_card" onClick={() => {props.setShowModal(true); props.setSelectItem(g) }} key={`${g.model}`} >
                   <Card.Img variant="top" src={g.image} />
                   <Card.Body>
                     <Card.Title>{g.model}</Card.Title>
@@ -25,7 +25,7 @@ export  function Catalog(props) {
                       <li>{g.size}</li>
                       </ul></Card.Text>
                     <Card.Title variant="light"><span>{g.price}</span><span className="oldprice">{g.oldprice}</span></Card.Title>
-                    <Button  variant="primary" onClick={() => {props.setShowModal(true); props.setSelectItem(g) }}>Подробнее</Button>
+                    <Button  variant="warning" onClick={() => {props.setShowModal(true); props.setSelectItem(g) }}>Подробнее</Button>
                   </Card.Body>
                 </Card>
               </Col>

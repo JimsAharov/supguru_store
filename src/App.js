@@ -10,6 +10,9 @@ import { ModalDescription } from "./components/ModalDescription";
 import { About } from "./components/About";
 import { ChooseSup } from "./components/ChooseSup";
 import { OrderPage } from "./components/OrderPage";
+import { TelegramIcon } from "./components/TelegramIcon";
+import { Footer } from "./components/Footer";
+import { HowChooseSupModal } from "./components/HowChooseSupModal";
 
 
 function App() {
@@ -20,15 +23,16 @@ function App() {
 
   const [showModal, setShowModal] = useState(false);
   const [selectItem, setSelectItem] = useState(undefined);
-  const [showOrderPage, setShowOrderPage] = useState(false)
+  const [showOrderPage, setShowOrderPage] = useState(false);
+  const [showHowCooseSupModal, setShowHowCooseSupModal] = useState(false);
 
   
 
   return (
     <div className="App">
       <Navigation />
-      <Header />
-
+      <Header showHowCooseSupModal={showHowCooseSupModal} setShowHowCooseSupModal={setShowHowCooseSupModal} />
+      <TelegramIcon/>
       <About />
       <ChooseSup />
       
@@ -52,6 +56,9 @@ function App() {
         showModal={showModal}
         setShowModal={setShowModal}
       />
+      <HowChooseSupModal showHowCooseSupModal={showHowCooseSupModal} setShowHowCooseSupModal={setShowHowCooseSupModal}/>
+      <iframe title="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Aae787bd5cbfc82facc29f66c57d0d39adfbee5bf959358c554664e479115eeb6&amp;source=constructor" width="1054" height="565" frameborder="0"></iframe>
+      <Footer/>
     </div>
   );
 }

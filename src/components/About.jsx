@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 const styles = {
   container_about: {
     margin: "auto",
+    paddingTop: "10px",
   },
 };
 
@@ -39,6 +40,7 @@ export function About() {
             </ul>
           </p>
         </Container>
+        
       </Col>
     </Row>
   );
