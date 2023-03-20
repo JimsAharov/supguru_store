@@ -5,7 +5,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Catalog } from "./components/Catalog";
 import { Header } from "./components/Header";
 import JsonData from "./data/data.json";
-import { Img } from "./components/img";
 import { ModalDescription } from "./components/ModalDescription";
 import { About } from "./components/About";
 import { OrderPage } from "./components/OrderPage";
@@ -13,6 +12,9 @@ import { TelegramIcon } from "./components/TelegramIcon";
 import { Footer } from "./components/Footer";
 import { HowChooseSupModal } from "./components/HowChooseSupModal";
 import { GladiatorHeader } from "./components/GladiatorHeader";
+import { HitSellersHeader } from "./components/HitSellersHeader";
+import { PayShipModal } from "./components/PayShipModal";
+import { Map } from "./components/Map";
 
 function App() {
   const [pageData, setPageData] = useState({});
@@ -24,16 +26,23 @@ function App() {
   const [selectItem, setSelectItem] = useState(undefined);
   const [showOrderPage, setShowOrderPage] = useState(false);
   const [showHowCooseSupModal, setShowHowCooseSupModal] = useState(false);
+  const [showPayShipModal, setShowPayShipModal] = useState(false)
 
   return (
     <div className="App">
-      <Navigation />
+      <Navigation
+      setShowPayShipModal={setShowPayShipModal}
+         />
       <Header
         showHowCooseSupModal={showHowCooseSupModal}
         setShowHowCooseSupModal={setShowHowCooseSupModal}
       />
       <TelegramIcon />
       <About />
+      <HitSellersHeader 
+        data={pageData.Iboard}
+        setSelectItem={setSelectItem}
+        setShowModal={setShowModal}/>
       <GladiatorHeader/>
 
       <OrderPage
@@ -47,13 +56,14 @@ function App() {
         data={pageData.Gladiator}
         setShowModal={setShowModal}
       />
-      <Img />
-      <Catalog
-        data={pageData.Iboard}
-        setSelectItem={setSelectItem}
-        setShowModal={setShowModal}
+      
+      
+      <PayShipModal 
+        showPayShipModal={showPayShipModal}
+        setShowPayShipModal={setShowPayShipModal}
       />
       <ModalDescription
+        
         setShowOrderPage={setShowOrderPage}
         setSelectItem={setSelectItem}
         selectItem={selectItem}
@@ -64,6 +74,7 @@ function App() {
         showHowCooseSupModal={showHowCooseSupModal}
         setShowHowCooseSupModal={setShowHowCooseSupModal}
       />
+      <Map/>
       {/* <iframe
         title="map"
         src="https://yandex.ru/map-widget/v1/?um=constructor%3Aae787bd5cbfc82facc29f66c57d0d39adfbee5bf959358c554664e479115eeb6&amp;source=constructor"

@@ -20,8 +20,8 @@ export function Header(props) {
             
           </ul>
           <ul>
-          <li className="header_button"><Button variant="light" >Записаться на тест-драйв</Button></li>
-          <li className="header_button"><Button variant="warning" onClick={() => props.setShowHowCooseSupModal(true)}>Как правильно выбрать САП</Button></li>
+          <li className="header_button"><a href="#hit_sell_container"><Button variant="light">Хиты продаж</Button></a></li>
+          <li className="header_button_1"><Button variant="warning" onClick={() => props.setShowHowCooseSupModal(true)}>Как правильно выбрать САП</Button></li>
           </ul>
         </div>
         

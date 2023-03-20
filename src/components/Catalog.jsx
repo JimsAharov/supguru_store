@@ -25,7 +25,7 @@ export  function Catalog(props) {
                       <li>{g.size}</li>
                       </ul></Card.Text>
                     <Card.Title variant="light"><span>{g.price}</span><span className="oldprice">{g.oldprice}</span></Card.Title>
-                    <Button  variant="warning" onClick={() => {props.setShowModal(true); props.setSelectItem(g) }}>Подробнее</Button>
+                    <Button  variant="primary" onClick={() => {props.setShowModal(true); props.setSelectItem(g) }}>Подробнее</Button>
                   </Card.Body>
                 </Card>
               </Col>

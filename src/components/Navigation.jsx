@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
 
-export function Navigation(){
+export function Navigation(props){
     return (<>
         
             <Navbar  bg="dark" variant="dark" expand='md' className="mb-3" sticky="top" >
@@ -36,9 +36,9 @@ export function Navigation(){
                   </Offcanvas.Header>
                   <Offcanvas.Body>
                     <Nav className="justify-content-center flex-grow-1 pe-3">
-                      <Nav.Link href="#catalogGladiator">Gladiator</Nav.Link>
-                      <Nav.Link href="#catalogIboard">iBoard</Nav.Link>
-                      <Nav.Link href="#header">Funwater</Nav.Link>
+                      <Nav.Link href="#gladiator_header">Gladiator</Nav.Link>
+                      <Nav.Link href="#hit_sell_container">Хиты продаж</Nav.Link>
+                      <Nav.Link onClick={() => props.setShowPayShipModal(true)}>Оплата и доставка</Nav.Link>
                       
                     </Nav>
                     

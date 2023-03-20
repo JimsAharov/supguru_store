@@ -67,6 +67,17 @@
   list-style-type: none;
   width: 300px;
   margin-top: 50px;
+  margin-left: -20px;
+}
+
+.header_button_1 {
+  list-style-type: none;
+  width: 300px;
+  margin-top: 50px;
+}
+
+.pay_ship_text{
+  padding-left: 30px;
 }
 
 #img_container {
@@ -124,19 +135,55 @@ p {
 .gladiator_header{
     background: linear-gradient(90deg, #163CA9 0%, #F47521 100%);
     width: auto;
-    
+    color:rgba(221, 221, 221, 1);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 80px;
+
 }
 .gladiator_header_text{
-    padding: 10px 30px;
+    padding: 50px 0px 100px 0px;
+    font-size: 19px;
+    line-height: 200%;
 }
+
+.gladiator_header_text_about{
+  margin-top: 50px;
+}
+
+#hit_sell_container{
+  background-color: #393939;
+  margin-top: 50px;
+  padding: 50px 0px 50px 0px;
+}
+
+.hit_sellers_h1{
+  font-size: 100px;
+  font-weight: bold;
+
+  background: linear-gradient(90deg, #2056F1 0%, #F47521 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+}
+
+.hit_sell_text{
+  padding: 20px 0px 0px 0px;
+    font-size: 19px;
+    line-height: 200%;
+    color: rgba(221, 221, 221, 1);
+}
+
+
 
 .catalog_card {
   width: 15rem;
   transition: all 0.2s;
+  margin-bottom: 20px;
+  
 }
 
 .catalog_card:hover {
@@ -161,17 +208,16 @@ p {
   transform: rotate(5deg);
 }
 
-.accordion-button.collapsed {
-  background-color: lightgray;
-  border: 1px solid black;
-}
+
 
 /* .slider{
     width: 300px;
     height: 300px;
     margin: 0 auto;
 } */
-
+.item_in_modal_button{
+  margin-left: 20px;
+}
 .itemInModal_li_h3 {
   font-size: 25px;
   margin-top: 30px;

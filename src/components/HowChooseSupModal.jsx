@@ -73,6 +73,7 @@ export function HowChooseSupModal(props){
           
           </Container>
         </Modal.Body>
+        <Modal.Header closeButton/>
     </Modal>
          
    

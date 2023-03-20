@@ -70,26 +70,58 @@ export function ItemInModal(props) {
                 </span>
               </li>
               <li className="itemInModal_orderButton">
-                <Button
-                  onClick={() => {
-                    props.setShowOrderPage(true);
-                    props.setShowModal(false);
-                  }}
-                >
-                  Оформить Заказ
-                </Button>
+              
+                  <Button
+                    onClick={() => {
+                      props.setShowOrderPage(true);
+                      props.setShowModal(false);
+                    }}
+                  >
+                    Оформить Заказ
+                  </Button>
+                
+                
               </li>
             </ul>
           </Col>
-        </Row>
-        <div>
+        </Row> <Container><div>
           <h3 className="itemInModal_li_h3">Подробное описание:</h3>
           {props.selectItem ? props.selectItem.description : "Load"}
           <h3 className="itemInModal_li_h3">Комплектация:</h3>
-          Доска, насос с манометром, сумка-рюкзак, весло (нейллон/фибергласс),
-          ремкомплект, лиш витой, плавник. Комплект содержит всё необходимое для
-          катания, приобретать дополнительно ничего не нужно.
-        </div>
+          {props.selectItem ? props.selectItem.equipment : "load"}
+          <h3 className="itemInModal_li_h3">Оплата и доставка</h3>
+          Оформить заказ можно несколькими способами:
+        <ul>
+          <li>Через каталог нашего сайта</li>
+          <li>
+            По номеру +79115175912 / +79115062870 (доступны в WhatsApp и
+            Telegram)
+          </li>
+          <li>
+            Через наш магазин<a href="https://vk.com/supguru"><b>ВКонтакте</b></a>
+          </li>
+        </ul>
+        <h5>Оплата</h5>{" "}
+        <ul>
+          <li>
+            Наличными или банковским переводом после того как Вы осмотрели товар
+            и проверили комплектацию.
+          </li>
+        </ul>
+        <h5>Способы доставки</h5>{" "}
+        <ul>
+          <li>
+            Отгрузка со склада - Вы сможете самостоятельно забрать заказанный
+            Вами товар у нашего представителя в Череповце.
+          </li>
+          <li>Доставка курьером в пределах г. Череповца: +300 руб.</li>
+          <li>
+            Доставка в регионы РФ любой транспортной компанией при 100%
+            предоплате.
+          </li>
+        </ul>
+        </div></Container>
+        
       </Container>
     </>
   );

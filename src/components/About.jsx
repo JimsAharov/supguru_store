@@ -31,7 +31,7 @@ export function About() {
             самовывоз со склада в Череповце. С нами просто, удобно и выгодно.
           </p>
           
-          <Button className="about_button">В каталог</Button>
+          {/* <Button className="about_button">В каталог</Button> */}
         </div>
       </Col>
       <Col className="display-flex-right">
@@ -53,7 +53,7 @@ export function About() {
             выдаём спасательные жилеты и гермопакеты для личных вещей</li>
             </ul><p><b>Внимание!</b> Предварительная запись на прокат обязательна! <br/>Телефон/WhatsApp/Telegram: +79115175912 или +79115062870</p>
           </p>
-          <Button className="about_button">Записаться</Button>
+          <Button href="https://t.me/+79115175912" className="about_button">Записаться</Button>
           <Button>Как проехать</Button>
         </div>
       </Col>
