@@ -3,6 +3,7 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import { Image } from "react-bootstrap";
 import { useState } from "react";
+import { ConfirmOrderModal } from "./ConfirmOrderModal";
 
 const styles = {
   container: {
@@ -48,6 +49,7 @@ export function OrderPage(props) {
   
   const [name, setName] = useState("");
   const [tel, setTel] = useState("");
+  const [showConfirmOrderModal, setShowConfirmOrderModal] = useState(false)
 
   
   const handleSubmit = (e) => {
@@ -62,9 +64,10 @@ export function OrderPage(props) {
       }
     )
       props.setShowOrderPage(false)
+      
   };
 
-  return (
+  return (<>
     <Modal
       show={props.showOrderPage}
       onHide={() => {
@@ -132,15 +135,22 @@ export function OrderPage(props) {
             />
 
             <Button
-              variant="warning"
+              variant="primary"
               style={styles.order_form_button}
               type="submit"
-            >
+              onClick={()=>setShowConfirmOrderModal(true)}
+            > 
               Отправить
             </Button>
           </form>
         </div>
       </Modal.Body>
     </Modal>
+     <ConfirmOrderModal
+     showConfirmOrderModal={showConfirmOrderModal}
+     setShowConfirmOrderModal={setShowConfirmOrderModal}
+     />
+
+    </>
   );
 }

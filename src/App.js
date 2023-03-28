@@ -16,6 +16,7 @@ import { HitSellersHeader } from "./components/HitSellersHeader";
 import { PayShipModal } from "./components/PayShipModal";
 import { Map } from "./components/Map";
 
+
 function App() {
   const [pageData, setPageData] = useState({});
   useEffect(() => {
@@ -74,6 +75,7 @@ function App() {
         showHowCooseSupModal={showHowCooseSupModal}
         setShowHowCooseSupModal={setShowHowCooseSupModal}
       />
+     
       <Map/>
       {/* <iframe
         title="map"

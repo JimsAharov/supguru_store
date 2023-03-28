@@ -1,7 +1,8 @@
 import Modal from "react-bootstrap/Modal";
 
+
 export function PayShipModal(props) {
-  return (
+  return (<>
     <Modal show={props.showPayShipModal} size="lg" onHide={() => props.setShowPayShipModal(false)}>
       <Modal.Header closeButton>
         <Modal.Title>Оплата и доставка</Modal.Title>
@@ -42,5 +43,7 @@ export function PayShipModal(props) {
       </Modal.Body>
       
     </Modal>
+   
+    </>
   );
 }

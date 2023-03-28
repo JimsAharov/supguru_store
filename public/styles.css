@@ -242,11 +242,18 @@ p {
   border-bottom: 2px solid lightgrey;
 }
 
+.confirm_order_container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
 .telegram_logo_box {
-  z-index: 3000;
+  z-index: 1000;
   position: fixed;
   bottom: 5%;
-  right: 2%;
+  right: 6%;
   display: flex;
   height: 70px;
   width: 70px;

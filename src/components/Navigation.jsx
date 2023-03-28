@@ -36,7 +36,7 @@ export function Navigation(props){
                   </Offcanvas.Header>
                   <Offcanvas.Body>
                     <Nav className="justify-content-center flex-grow-1 pe-3">
-                      <Nav.Link href="#gladiator_header">Gladiator</Nav.Link>
+                      <Nav.Link href="#gladiator_header">Доски Gladiator</Nav.Link>
                       <Nav.Link href="#hit_sell_container">Хиты продаж</Nav.Link>
                       <Nav.Link onClick={() => props.setShowPayShipModal(true)}>Оплата и доставка</Nav.Link>
                       
