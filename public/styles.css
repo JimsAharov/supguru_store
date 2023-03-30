@@ -48,8 +48,7 @@
 }
 
 #header_text {
-  /* background-color: white; 
-   opacity: 0.7; */
+  
   color: white;
   display: inline-block;
 
@@ -85,9 +84,7 @@
   z-index: 1000;
 }
 
-#fonimg {
-  /* position: absolute;  */
-}
+
 
 .about_left {
   background: linear-gradient(225deg, #d2d2d2 0%, #f2f2f2 98.67%);
@@ -118,9 +115,7 @@
   background-color: white;
 }
 
-p {
-  /* padding-left: 16px; */
-}
+
 
 .about_h1 {
   font-weight: bold;
@@ -210,11 +205,7 @@ p {
 
 
 
-/* .slider{
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
-} */
+
 .item_in_modal_button{
   margin-left: 20px;
 }
@@ -282,6 +273,15 @@ p {
   100% {
     transform: translateY(0);
   }
+}
+
+#map{
+  padding: 45px 0px 0px 0px;
+  
+}
+
+.map{
+  width: 100%;
 }
 
 .footer_info_left {

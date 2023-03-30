@@ -77,13 +77,7 @@ function App() {
       />
      
       <Map/>
-      {/* <iframe
-        title="map"
-        src="https://yandex.ru/map-widget/v1/?um=constructor%3Aae787bd5cbfc82facc29f66c57d0d39adfbee5bf959358c554664e479115eeb6&amp;source=constructor"
-        width="1054"
-        height="565"
-        frameborder="0"
-      ></iframe> */}
+      
       <Footer />
     </div>
   );

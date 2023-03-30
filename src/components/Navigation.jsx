@@ -12,14 +12,14 @@ export function Navigation(props){
         
             <Navbar  bg="dark" variant="dark" expand='md' className="mb-3" sticky="top" >
               <Container >
-                <Navbar.Brand >
+                <Navbar.Brand href="#header" >
                  <img
               src="logo sup guru white.png"
               width="50"
               height="50"
               className="d-inline-block align-top"
               alt="React Bootstrap logo"
-            /> <span className="navbar_brand_text">SUPGURU</span>
+            />  <span  className="navbar_brand_text">SUPGURU</span>
                 
                 </Navbar.Brand>
                 
@@ -39,7 +39,8 @@ export function Navigation(props){
                       <Nav.Link href="#gladiator_header">Доски Gladiator</Nav.Link>
                       <Nav.Link href="#hit_sell_container">Хиты продаж</Nav.Link>
                       <Nav.Link onClick={() => props.setShowPayShipModal(true)}>Оплата и доставка</Nav.Link>
-                      
+                      <Nav.Link href="#rent_card">Сап-прокат</Nav.Link>
+                      <Nav.Link href="#footer_col">Контакты</Nav.Link>
                     </Nav>
                     
                   </Offcanvas.Body>
