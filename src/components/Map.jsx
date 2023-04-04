@@ -7,7 +7,7 @@ export function Map() {
       <Col className="display-flex-left">
         <div className="about_left">
           <div className="about_left_h1">
-            <h1 className="about_h1">Как добраться на прокат</h1>
+            <h1 className="about_h1">Как добраться <br /> на прокат</h1>
           </div>
           <br /> <br />
           <p>
